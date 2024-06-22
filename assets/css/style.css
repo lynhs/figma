@@ -8,4 +8,79 @@ html {
 
 body {
     font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+/* common */
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 16px;
+    min-width: 118px;
+    line-height: 50px;
+    color: #FFF;
+    font-size: 1.6rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 24.5px;
+    background: #171100;
+}
+
+/* header */
+.header {
+    background: #FFFCF4;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -28px;
+}
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 36px 0 8px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav a {
+    color: #5F5B53;
+    font-size: 1.6rem;
+    padding: 8px 21px;
+}
+
+.nav a:hover {
+    color: #171100;
+    font-weight: 600;
+}
+
+.header .btn-up {
+    min-width: 144px;
+}
+
+header .action {
+    margin-left: 49px;
 }
