@@ -52,6 +52,15 @@ a {
     opacity: 0.9;
 }
 
+.heading-lv2 {
+    color: #171100;
+    font-family: var(--font-heading);
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 126%;
+    letter-spacing: -0.76px;
+}
+
 /* header */
 .header {
     background: #FFFCF4;
@@ -264,4 +273,48 @@ header .action {
 
 .hero .desc {
     margin-top: 8px;
+}
+
+/* popular */
+
+.popular {
+    padding: 65px 0;
+    margin-top: 135px;
+}
+
+.popular-top .desc {
+    margin-top: 16px;
+    width: 458px;
+    color: #5F5B53;
+    font-size: 1.8rem;
+    line-height: 167%;
+}
+
+.popular-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-top .control-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+.popular-top .controls {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.popular-top .control-btn:hover {
+    background: var(--primary-color);
+    color: white;
+    cursor: pointer;
 }
